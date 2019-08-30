@@ -10,10 +10,12 @@ import ReSwift
 
 class TestReSwift {
     var store: Store<AppState>;
-     init() {
-        let sideEffects = injectService(service: RemoteDataService(), receivers: dataServiceSideEffects)
+    init(apiService: RemoteDataService,
+         sideEffects: [(RemoteDataService) -> MiddlewareItem],
+         reducers: @escaping (Action, AppState?) -> AppState) {
+        let sideEffects = injectService(service: apiService, receivers: sideEffects)
         let middleware = createMiddleware(items: sideEffects)
-        store = Store<AppState>(reducer: appReducer, state: nil, middleware: [middleware])
+        store = Store<AppState>(reducer: reducers, state: nil, middleware: [middleware])
     }
 }
 

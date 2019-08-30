@@ -14,18 +14,12 @@
 		24D490382319499600405346 /* InjectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4901F2319499600405346 /* InjectService.swift */; };
 		24D490392319499600405346 /* MiddlewareItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490202319499600405346 /* MiddlewareItem.swift */; };
 		24D4903A2319499600405346 /* CreateMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490212319499600405346 /* CreateMiddleware.swift */; };
-		24D4903B2319499600405346 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490232319499600405346 /* Actions.swift */; };
 		24D4903C2319499600405346 /* BaseAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490242319499600405346 /* BaseAction.swift */; };
 		24D4903D2319499600405346 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490262319499600405346 /* AppReducer.swift */; };
 		24D4903E2319499600405346 /* RemoveStateStatusReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490272319499600405346 /* RemoveStateStatusReducer.swift */; };
-		24D4903F2319499600405346 /* SampleReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490282319499600405346 /* SampleReducer.swift */; };
 		24D490402319499600405346 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4902A2319499600405346 /* Base.swift */; };
-		24D490412319499600405346 /* SampleInheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4902C2319499600405346 /* SampleInheritance.swift */; };
-		24D490422319499600405346 /* SideEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4902E2319499600405346 /* SideEffects.swift */; };
-		24D490432319499600405346 /* SampleSideEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4902F2319499600405346 /* SampleSideEffect.swift */; };
 		24D490442319499600405346 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490312319499600405346 /* DataService.swift */; };
 		24D490452319499600405346 /* RemoteDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490322319499600405346 /* RemoteDataService.swift */; };
-		24D490462319499600405346 /* SampleDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490342319499600405346 /* SampleDTO.swift */; };
 		24D490472319499600405346 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490352319499600405346 /* ApiError.swift */; };
 		24D490482319499600405346 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D490372319499600405346 /* AppState.swift */; };
 		24D4904C2319761100405346 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4904B2319761100405346 /* Store.swift */; };
@@ -52,18 +46,12 @@
 		24D4901F2319499600405346 /* InjectService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectService.swift; sourceTree = "<group>"; };
 		24D490202319499600405346 /* MiddlewareItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddlewareItem.swift; sourceTree = "<group>"; };
 		24D490212319499600405346 /* CreateMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMiddleware.swift; sourceTree = "<group>"; };
-		24D490232319499600405346 /* Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 		24D490242319499600405346 /* BaseAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAction.swift; sourceTree = "<group>"; };
 		24D490262319499600405346 /* AppReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		24D490272319499600405346 /* RemoveStateStatusReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveStateStatusReducer.swift; sourceTree = "<group>"; };
-		24D490282319499600405346 /* SampleReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleReducer.swift; sourceTree = "<group>"; };
 		24D4902A2319499600405346 /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
-		24D4902C2319499600405346 /* SampleInheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleInheritance.swift; sourceTree = "<group>"; };
-		24D4902E2319499600405346 /* SideEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideEffects.swift; sourceTree = "<group>"; };
-		24D4902F2319499600405346 /* SampleSideEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleSideEffect.swift; sourceTree = "<group>"; };
 		24D490312319499600405346 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		24D490322319499600405346 /* RemoteDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDataService.swift; sourceTree = "<group>"; };
-		24D490342319499600405346 /* SampleDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDTO.swift; sourceTree = "<group>"; };
 		24D490352319499600405346 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		24D490372319499600405346 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		24D4904B2319761100405346 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
@@ -126,9 +114,7 @@
 				24D490332319499600405346 /* Models */,
 				24D490252319499600405346 /* Reducers */,
 				24D490302319499600405346 /* Service */,
-				24D4902D2319499600405346 /* SideEffects */,
 				24D490362319499600405346 /* State */,
-				24D4902B2319499600405346 /* ViewControllers */,
 				24B65E262319456B00874049 /* TestReSwift.h */,
 				24B65E272319456B00874049 /* Info.plist */,
 			);
@@ -157,7 +143,6 @@
 		24D490222319499600405346 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
-				24D490232319499600405346 /* Actions.swift */,
 				24D490242319499600405346 /* BaseAction.swift */,
 			);
 			path = Actions;
@@ -168,7 +153,6 @@
 			children = (
 				24D490262319499600405346 /* AppReducer.swift */,
 				24D490272319499600405346 /* RemoveStateStatusReducer.swift */,
-				24D490282319499600405346 /* SampleReducer.swift */,
 			);
 			path = Reducers;
 			sourceTree = "<group>";
@@ -179,23 +163,6 @@
 				24D4902A2319499600405346 /* Base.swift */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		24D4902B2319499600405346 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				24D4902C2319499600405346 /* SampleInheritance.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		24D4902D2319499600405346 /* SideEffects */ = {
-			isa = PBXGroup;
-			children = (
-				24D4902E2319499600405346 /* SideEffects.swift */,
-				24D4902F2319499600405346 /* SampleSideEffect.swift */,
-			);
-			path = SideEffects;
 			sourceTree = "<group>";
 		};
 		24D490302319499600405346 /* Service */ = {
@@ -210,7 +177,6 @@
 		24D490332319499600405346 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				24D490342319499600405346 /* SampleDTO.swift */,
 				24D490352319499600405346 /* ApiError.swift */,
 			);
 			path = Models;
@@ -413,16 +379,10 @@
 				24D490442319499600405346 /* DataService.swift in Sources */,
 				24D4903E2319499600405346 /* RemoveStateStatusReducer.swift in Sources */,
 				24D4904C2319761100405346 /* Store.swift in Sources */,
-				24D4903F2319499600405346 /* SampleReducer.swift in Sources */,
 				24D490392319499600405346 /* MiddlewareItem.swift in Sources */,
-				24D490422319499600405346 /* SideEffects.swift in Sources */,
 				24D490482319499600405346 /* AppState.swift in Sources */,
-				24D4903B2319499600405346 /* Actions.swift in Sources */,
 				24D4903A2319499600405346 /* CreateMiddleware.swift in Sources */,
-				24D490412319499600405346 /* SampleInheritance.swift in Sources */,
 				24D490402319499600405346 /* Base.swift in Sources */,
-				24D490462319499600405346 /* SampleDTO.swift in Sources */,
-				24D490432319499600405346 /* SampleSideEffect.swift in Sources */,
 				24D490452319499600405346 /* RemoteDataService.swift in Sources */,
 				24D490472319499600405346 /* ApiError.swift in Sources */,
 				24D490382319499600405346 /* InjectService.swift in Sources */,

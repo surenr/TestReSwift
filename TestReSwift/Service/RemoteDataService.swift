@@ -8,15 +8,4 @@
 
 import PromiseKit
 
-struct RemoteDataService: DataService {
-    func sampleApiService(param: String) -> Promise<SampleDTO> {
-        return Promise<SampleDTO> { seal in
-            if(param == "success") {
-                let sampleObj = SampleDTO(name: "Sample Name")
-                seal.fulfill(sampleObj)
-            } else {
-                seal.reject(NSError(domain: "test", code: 500))
-            }
-        }
-    }
-}
+struct RemoteDataService: DataService {}

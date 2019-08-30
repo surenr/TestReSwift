@@ -16,15 +16,3 @@ func  updateActionsStateStatus(state: AppState, actionId: String?, action: BaseA
     }
     return state
 }
-
-func appReducer(action: Action, state: AppState?) -> AppState {
-    let state = state ?? AppState()
-    switch action {
-    case _ as SampleAction:
-        return sampleReducer(action: action, state: state)
-    case _ as RemoveStateStatus:
-        return removeStateStatusReducer(action: action, state: state)
-    default:
-        return state
-    }
-}

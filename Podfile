@@ -8,12 +8,10 @@ target 'TestReSwift' do
   # Pods for TestReSwift
     pod 'ReSwift'
     pod "PromiseKit"
-    pod 'Alamofire'
 
   target 'TestReSwiftTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'Nimble', :inhibit_warnings => true
   end
 
 end

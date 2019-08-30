@@ -7,7 +7,5 @@
 //
 
 import PromiseKit
-protocol DataService {
-    func sampleApiService(param:String) -> Promise<SampleDTO>
-}
+protocol DataService {}
 

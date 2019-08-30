@@ -10,15 +10,11 @@ import ReSwift
 
 struct AppState: StateType {
     let systemStateUpdateTracker: [String : BaseAction]
-    let sampleDto: SampleDTO
-    init(systemStateUpdateTracker: [String: BaseAction] = [:], sampleDto: SampleDTO = SampleDTO(name: "")) {
+    init(systemStateUpdateTracker: [String: BaseAction] = [:]) {
         self.systemStateUpdateTracker = systemStateUpdateTracker
-        self.sampleDto = sampleDto
     }
     
-    func copy(systemStateUpdateTracker: [String: BaseAction]? = nil, sampleDto: SampleDTO? = nil) -> AppState {
-        return AppState(systemStateUpdateTracker: systemStateUpdateTracker ?? self.systemStateUpdateTracker,
-                        sampleDto: sampleDto ?? self.sampleDto
-        )
+    func copy(systemStateUpdateTracker: [String: BaseAction]? = nil) -> AppState {
+        return AppState(systemStateUpdateTracker: systemStateUpdateTracker ?? self.systemStateUpdateTracker)
     }
 }

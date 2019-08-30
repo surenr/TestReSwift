@@ -93,13 +93,13 @@ Pod::Spec.new do |spec|
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
   # 8
-s.source_files = "TestReSwift/**/*.{swift}"
+  spec.source_files = "TestReSwift/**/*.{swift}"
 
 # 9
-s.resources = "TestReSwift/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+spec.resources = "TestReSwift/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
-s.swift_version = "4.2"
+spec.swift_version = "4.2"
 
 
   # spec.public_header_files = "Classes/**/*.h"

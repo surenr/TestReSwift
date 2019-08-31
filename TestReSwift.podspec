@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source_files = "TestReSwift/**/*.{swift}"
   
   # 9
-  s.resources = "TestReSwift/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  # s.resources = "TestReSwift/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   
   # 10
   s.swift_version = "4.2"
